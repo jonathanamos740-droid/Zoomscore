@@ -1,0 +1,79 @@
+/* Kept the same but simplified comments */
+.navbar {
+  background-color: #111827;
+  color: #ffffff;
+  padding: 12px 16px;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.navbar-logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-logo .trademark {
+  color: #f97316;
+}
+
+.navbar-nav {
+  display: none;
+  gap: 24px;
+}
+
+.navbar-nav a {
+  color: #d1d5db;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.navbar-nav a:hover {
+  color: #ffffff;
+}
+
+.navbar-nav a.active {
+  color: #f97316;
+  border-bottom: 2px solid #f97316;
+  padding-bottom: 4px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar-button {
+  background: none;
+  border: none;
+  color: #d1d5db;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.navbar-button:hover {
+  color: #ffffff;
+}
+
+.navbar-icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: flex;
+  }
+}

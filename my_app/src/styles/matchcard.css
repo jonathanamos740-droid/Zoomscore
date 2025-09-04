@@ -1,0 +1,120 @@
+/* Simplified all measurements to use pixels instead of rem units */
+.match-card {
+  background-color: #1f2937;
+  border-radius: 8px;
+  padding: 16px;
+  transition: background-color 0.2s;
+ /* width: 500px; */
+}
+
+.match-card:hover {
+  background-color: #374151;
+}
+
+.match-content {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+
+.match-teams {
+  flex: 1;
+  max-width: 70%;
+}
+
+.team-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  min-height: 32px;
+}
+
+.team-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+
+.team-logo {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.team-logo.home {
+  /* background-color: #2563eb; */
+}
+
+.team-logo.away {
+  /* background-color: #dc2626; */
+}
+
+.team-name {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.team-score {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  min-width: 30px;
+  text-align: right;
+}
+
+.match-status {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 60px;
+}
+
+.status-badge {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.status-badge.live {
+  background-color: #10b981;
+}
+
+.status-badge.ft {
+  background-color: #6b7280;
+}
+
+.status-badge.ht {
+  background-color: #eab308;
+}
+
+.match-minute {
+  color: #9ca3af;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.favorite-button {
+  background: none;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: color 0.2s;
+  margin-left: 12px;
+}
+
+.favorite-icon {
+  width: 20px;
+  height: 20px;
+}
